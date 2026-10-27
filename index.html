@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <!-- EDITAR: título e descrição que aparecem no Google e ao compartilhar o link -->
+  <title>Léo Imports Rio Branco</title>
+  <meta name="description" content="iPhone, Apple Watch, AirPods, Xiaomi, JBL e acessórios em Rio Branco, AC. Atendimento e vendas pelo WhatsApp.">
+  <meta property="og:title" content="Léo Imports Rio Branco">
+  <meta property="og:description" content="iPhone, Apple Watch, AirPods, Xiaomi, JBL e acessórios em Rio Branco, AC. Atendimento e vendas pelo WhatsApp.">
+  <meta property="og:image" content="assets/img/banner-1.jpg">
+  <meta name="theme-color" content="#050505">
+  <link rel="icon" href="assets/img/foto.jpg" type="image/jpeg">
+
+  <!-- Aplica o tema salvo antes de pintar a página (evita piscar) -->
+  <script>try { var t = localStorage.getItem('bio-theme'); if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t) } catch (e) { }</script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Fontes carregam sem travar a página -->
+  <link rel="preload" as="style"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&amp;family=Geist:wght@400;500;600&amp;family=Unbounded:wght@500&amp;family=Silkscreen&amp;display=swap">
+  <link rel="stylesheet" media="print" onload="this.media='all'"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&amp;family=Geist:wght@400;500;600&amp;family=Unbounded:wght@500&amp;family=Silkscreen&amp;display=swap">
+  <noscript><link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&amp;family=Geist:wght@400;500;600&amp;family=Unbounded:wght@500&amp;family=Silkscreen&amp;display=swap"></noscript>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <div class="lang-sweep" aria-hidden="true"></div>
+  <div class="gridbg" aria-hidden="true"></div>
+  <div class="bg" aria-hidden="true"></div>
+
+  <main class="page">
+
+    <!-- ===== TOPO: idioma + tema ===== -->
+    <div class="bar">
+      <div class="lang" role="group" aria-label="Idioma" data-i18n-aria="aria_lang">
+        <button type="button" data-lang="pt" aria-pressed="true">
+          <svg viewBox="0 0 16 11" aria-hidden="true">
+            <rect width="16" height="11" fill="#009b3a" />
+            <path d="M8 1.2 14.6 5.5 8 9.8 1.4 5.5Z" fill="#fedf00" />
+            <circle cx="8" cy="5.5" r="2.3" fill="#002776" />
+          </svg>PT
+        </button>
+        <button type="button" data-lang="en" aria-pressed="false">
+          <svg viewBox="0 0 16 11" aria-hidden="true">
+            <rect width="16" height="11" fill="#fff" />
+            <path d="M0 0h16v1.6H0zm0 3.1h16v1.6H0zm0 3.1h16v1.6H0zm0 3.1h16V11H0z" fill="#b22234" />
+            <rect width="7" height="6" fill="#3c3b6e" />
+          </svg>EN
+        </button>
+      </div>
+      <button id="theme" class="theme" type="button" aria-label="Alternar tema" data-i18n-aria="aria_theme">
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          aria-hidden="true">
+          <circle cx="12" cy="12" r="4" />
+          <path
+            d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" />
+        </svg>
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          aria-hidden="true">
+          <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- ===== PERFIL ===== -->
+    <section class="hero">
+      <!-- EDITAR: troque assets/img/foto.jpg (quadrada, mín. 224×224 px) -->
+      <div class="photo"><img src="assets/img/foto.jpg" alt="Logo da Léo Imports" width="112" height="112"></div>
+      <div class="id">
+        <span class="status"><i></i><span data-i18n="status">Atendimento pelo WhatsApp</span></span>
+        <h1 class="h1"><img class="brand-logo on-dark" src="assets/img/logo.png" alt="Léo Imports" width="1000" height="411"><img class="brand-logo on-light" src="assets/img/logo-dark.png" alt="Léo Imports" width="1000" height="411"></h1>
+        <a class="handle" href="https://www.instagram.com/leoimports_ac/" target="_blank" rel="noopener">@leoimports_ac</a>
+      </div>
+      <p class="bio" data-i18n="bio">Tecnologia original, escolhida a dedo. Apple, Xiaomi e JBL com garantia e atendimento exclusivo, no coração de Rio Branco.</p>
+    </section>
+
+    <!-- ===== REDES SOCIAIS ===== -->
+    <nav class="social rv" style="--d:.1s" aria-label="Redes" data-i18n-aria="aria_social">
+      <a href="https://api.whatsapp.com/send/?phone=5568999853380&amp;text&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path
+            d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4c1.7.7 2.1.6 2.8.5a2.4 2.4 0 0 0 1.6-1.1 2 2 0 0 0 .1-1.1c0-.1-.2-.2-.5-.3Z" />
+        </svg>WhatsApp
+      </a>
+      <!-- Como chegar (abre a loja no Google Maps) -->
+      <a href="https://maps.google.com/?cid=13290408963924856648" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z" />
+          <circle cx="12" cy="9.5" r="2.5" />
+        </svg><span data-i18n="route">Como chegar</span>
+      </a>
+      <!-- Avaliar no Google -->
+      <a href="https://maps.google.com/?cid=13290408963924856648" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round" aria-hidden="true">
+          <path d="m12 2.5 2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9Z" />
+        </svg><span data-i18n="review">Avaliar</span>
+      </a>
+      <a href="https://www.instagram.com/leoimports_ac/" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round" aria-hidden="true">
+          <rect x="2" y="2" width="20" height="20" rx="5" />
+          <circle cx="12" cy="12" r="4" />
+          <path d="M17.5 6.5h.01" />
+        </svg>Instagram
+      </a>
+    </nav>
+
+    <!-- ===== FAIXA ROLANDO =====
+         EDITAR: escreva as palavras uma vez só; o script duplica para o loop. -->
+    <div class="ticker rv" style="--d:.12s" aria-hidden="true">
+      <div>
+        <span>iPhone</span><span>Apple Watch</span><span>AirPods</span><span>Xiaomi</span><span>JBL</span>
+        <span>Rio Branco</span>
+      </div>
+    </div>
+
+    <!-- ===== BOTÃO PRINCIPAL ===== -->
+    <a class="cta sheen-host" href="https://api.whatsapp.com/send/?phone=5568999853380&amp;text&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener">
+      <span class="sheen" aria-hidden="true"></span>
+      <span class="ic"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.6.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 12 12 0 0 0 4.6 4c1.7.7 2.1.6 2.8.5a2.4 2.4 0 0 0 1.6-1.1 2 2 0 0 0 .1-1.1c0-.1-.2-.2-.5-.3Z"/></svg></span>
+      <span class="tx">
+        <span class="t" data-i18n="cta_t">Peça seu orçamento</span>
+        <span class="d" data-i18n="cta_d">Chame a Léo Imports no WhatsApp e receba preço, cores e disponibilidade na hora.</span>
+      </span>
+      <span class="arr"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
+          stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M7 17 17 7M8 7h9v9" />
+        </svg></span>
+    </a>
+
+    <!-- ===== PRODUTOS =====
+         EDITAR banner: cada banner tem 2 arquivos em assets/img, mesmo desenho:
+         banner-N.jpg (1200 × 540 px) e banner-N-800.jpg (800 × 360 px, para celular).
+         Ao trocar um banner, substitua os dois com o mesmo nome. -->
+    <section class="sec rv" style="--d:.15s">
+      <div class="sec-h">
+        <h2 data-i18n="sec_t">Lançamentos</h2>
+        <span class="idx">// 05</span>
+      </div>
+      <p class="sec-p" data-i18n="sec_p">Os lançamentos da Apple, Xiaomi e JBL,<br>originais e com garantia.</p>
+
+      <div class="cards">
+        <article class="card">
+          <a class="img" href="https://api.whatsapp.com/send/?phone=5568999853380&amp;text=Ol%C3%A1%21%20Quero%20comprar%20o%20iPhone%2018%20Pro%20Max.&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img
+              src="assets/img/banner-1.jpg" srcset="assets/img/banner-1-800.jpg 800w, assets/img/banner-1.jpg 1200w"
+              sizes="(max-width: 560px) calc(100vw - 38px), 522px" alt="iPhone 18 Pro nas cores preto, branco, azul e vinho" fetchpriority="high"
+              width="1200" height="540"></a>
+          <a class="row" href="https://api.whatsapp.com/send/?phone=5568999853380&amp;text=Ol%C3%A1%21%20Quero%20comprar%20o%20iPhone%2018%20Pro%20Max.&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener">
+            <span class="tx">
+              <span class="t">iPhone 18 Pro Max</span>
+              <span class="d" data-i18n="pr1">Estrutura unibody. Uma obra única. Garanta o seu iPhone 18 Pro na Léo Imports.</span>
+            </span>
+            <span class="btn"><span data-i18n="buy">Compre agora</span><svg viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <path d="M5 12h14m-6-6 6 6-6 6" />
+              </svg></span>
+          </a>
+        </article>
+
+        <article class="card">
+          <a class="img" href="https://api.whatsapp.com/send/?phone=5568999853380&amp;text=Ol%C3%A1%21%20Quero%20comprar%20o%20Apple%20Watch%20Series%2012.&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img
+              src="assets/img/banner-2.jpg" srcset="assets/img/banner-2-800.jpg 800w, assets/img/banner-2.jpg 1200w"
+              sizes="(max-width: 560px) calc(100vw - 38px), 522px" alt="Apple Watch Series 12 em várias cores e pulseiras" loading="lazy"
+              width="1200" height="540"></a>
+          <a class="row" href="https://api.whatsapp.com/send/?phone=5568999853380&amp;text=Ol%C3%A1%21%20Quero%20comprar%20o%20Apple%20Watch%20Series%2012.&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener">
+            <span class="tx">
+              <span class="t">Novo Apple Watch Series 12</span>
+              <span class="d" data-i18n="pr2">Movido pelo coração. Siri AI, bateria para 24 horas e medições de saúde mais precisas.</span>
+            </span>
+            <span class="btn"><span data-i18n="buy">Compre agora</span><svg viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <path d="M5 12h14m-6-6 6 6-6 6" />
+              </svg></span>
+          </a>
+        </article>
+
+        <article class="card">
+          <a class="img" href="https://api.whatsapp.com/send/?phone=5568999853380&amp;text=Ol%C3%A1%21%20Quero%20ver%20os%20celulares%20Xiaomi%20e%20POCO.&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img
+              src="assets/img/banner-3.jpg" srcset="assets/img/banner-3-800.jpg 800w, assets/img/banner-3.jpg 1200w"
+              sizes="(max-width: 560px) calc(100vw - 38px), 522px" alt="Celulares Xiaomi Redmi e POCO nas cores lilás, branco e preto com a logo da Xiaomi" loading="lazy"
+              width="1200" height="540"></a>
+          <a class="row" href="https://api.whatsapp.com/send/?phone=5568999853380&amp;text=Ol%C3%A1%21%20Quero%20ver%20os%20celulares%20Xiaomi%20e%20POCO.&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener">
+            <span class="tx">
+              <span class="t">Linha Xiaomi e POCO</span>
+              <span class="d" data-i18n="pr3">Toda a linha Redmi e POCO, com tecnologia de ponta e o melhor custo-benefício do mercado.</span>
+            </span>
+            <span class="btn"><span data-i18n="buy">Compre agora</span><svg viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <path d="M5 12h14m-6-6 6 6-6 6" />
+              </svg></span>
+          </a>
+        </article>
+
+        <article class="card">
+          <a class="img" href="https://api.whatsapp.com/send/?phone=5568999853380&amp;text=Ol%C3%A1%21%20Quero%20ver%20os%20produtos%20JBL.&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img
+              src="assets/img/banner-4.jpg" srcset="assets/img/banner-4-800.jpg 800w, assets/img/banner-4.jpg 1200w"
+              sizes="(max-width: 560px) calc(100vw - 38px), 522px" alt="Caixas de som e fone de ouvido JBL" loading="lazy"
+              width="1200" height="540"></a>
+          <a class="row" href="https://api.whatsapp.com/send/?phone=5568999853380&amp;text=Ol%C3%A1%21%20Quero%20ver%20os%20produtos%20JBL.&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener">
+            <span class="tx">
+              <span class="t">Linha JBL</span>
+              <span class="d" data-i18n="pr4">Caixas de som e fones 100% originais, com garantia. Leve o som JBL para qualquer lugar.</span>
+            </span>
+            <span class="btn"><span data-i18n="buy">Compre agora</span><svg viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <path d="M5 12h14m-6-6 6 6-6 6" />
+              </svg></span>
+          </a>
+        </article>
+
+        <article class="card">
+          <a class="img" href="https://api.whatsapp.com/send/?phone=5568999853380&amp;text=Ol%C3%A1%21%20Quero%20comprar%20os%20AirPods%205.&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img
+              src="assets/img/banner-5.jpg" srcset="assets/img/banner-5-800.jpg 800w, assets/img/banner-5.jpg 1200w"
+              sizes="(max-width: 560px) calc(100vw - 38px), 522px" alt="AirPods 5 brancos com o estojo de carregamento aberto" loading="lazy"
+              width="1200" height="540"></a>
+          <a class="row" href="https://api.whatsapp.com/send/?phone=5568999853380&amp;text=Ol%C3%A1%21%20Quero%20comprar%20os%20AirPods%205.&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener">
+            <span class="tx">
+              <span class="t">AirPods 5</span>
+              <span class="d" data-i18n="pr5">Cancelamento Ativo de Ruído e Áudio Espacial Personalizado. Descubra a magia dos novos AirPods.</span>
+            </span>
+            <span class="btn"><span data-i18n="buy">Compre agora</span><svg viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"
+                aria-hidden="true">
+                <path d="M5 12h14m-6-6 6 6-6 6" />
+              </svg></span>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== LINKS ===== -->
+    <section class="links rv" style="--d:.2s">
+      <a class="link sheen-host" href="https://api.whatsapp.com/send/?phone=5568999853380&amp;text=Ol%C3%A1%21%20Quero%20ver%20os%20iPhones%20seminovos.&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener">
+        <span class="sheen" aria-hidden="true"></span>
+        <span class="n">01</span>
+        <span class="tx">
+          <span class="t" data-i18n="l1_t">iPhone seminovos</span>
+          <span class="d" data-i18n="l1_d">Aparelhos revisados, com bateria conferida e garantia da loja.</span>
+        </span>
+        <span class="arr"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M7 17 17 7M8 7h9v9" />
+          </svg></span>
+      </a>
+
+      <a class="link sheen-host" href="https://api.whatsapp.com/send/?phone=5568999853380&amp;text=Ol%C3%A1%21%20Quero%20ver%20os%20acess%C3%B3rios.&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener">
+        <span class="sheen" aria-hidden="true"></span>
+        <span class="n">02</span>
+        <span class="tx">
+          <span class="t" data-i18n="l2_t">Acessórios</span>
+          <span class="d" data-i18n="l2_d">Capas, películas, carregadores e cabos originais para proteger e carregar o seu aparelho.</span>
+        </span>
+        <span class="arr"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M7 17 17 7M8 7h9v9" />
+          </svg></span>
+      </a>
+
+      <a class="link sheen-host" href="https://api.whatsapp.com/send/?phone=5568999853380&amp;text&amp;type=phone_number&amp;app_absent=0" target="_blank" rel="noopener">
+        <span class="sheen" aria-hidden="true"></span>
+        <span class="n">03</span>
+        <span class="tx">
+          <span class="t" data-i18n="l3_t">Fale com um vendedor</span>
+          <span class="d" data-i18n="l3_d">Tire dúvidas, compare modelos e confira as condições de pagamento pelo WhatsApp.</span>
+        </span>
+        <span class="arr"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M7 17 17 7M8 7h9v9" />
+          </svg></span>
+      </a>
+
+      <!-- Destaque: assistência técnica -->
+      <a class="link link-feature sheen-host"
+        href="https://api.whatsapp.com/send/?phone=5568999853380&amp;text=Ol%C3%A1%21%20Preciso%20de%20assist%C3%AAncia%20t%C3%A9cnica.&amp;type=phone_number&amp;app_absent=0"
+        target="_blank" rel="noopener">
+        <span class="sheen" aria-hidden="true"></span>
+        <span class="n"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M14.7 6.3a4 4 0 0 0 5 5L21 12.6a6 6 0 0 1-7.9 2.1l-6.4 6.4a2.1 2.1 0 0 1-3-3l6.4-6.4A6 6 0 0 1 12.2 3.8Z" />
+            <path d="M14.7 6.3 17.5 3.5M19.7 11.3l2.8-2.8" />
+          </svg></span>
+        <span class="tx">
+          <span class="t-row">
+            <span class="t" data-i18n="l4_t">Assistência técnica</span>
+            <span class="tag"><i aria-hidden="true"></i><span data-i18n="l4_tag">Diagnóstico grátis</span></span>
+          </span>
+          <span class="d" data-i18n="l4_d">Troca de tela, bateria e conectores com peças de qualidade e garantia em todos os serviços.</span>
+        </span>
+        <span class="go"><span data-i18n="l4_go">Agendar</span><svg viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M7 17 17 7M8 7h9v9" />
+          </svg></span>
+      </a>
+
+      <!-- Destaque: Xiaomi Poco X8 -->
+      <a class="link link-feature sheen-host"
+        href="https://api.whatsapp.com/send/?phone=5568999853380&amp;text=Ol%C3%A1%21%20Quero%20comprar%20o%20Poco%20X8.&amp;type=phone_number&amp;app_absent=0"
+        target="_blank" rel="noopener">
+        <span class="sheen" aria-hidden="true"></span>
+        <span class="n"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="6" y="2" width="12" height="20" rx="3" />
+            <path d="M10.5 5h3M11 19h2" />
+          </svg></span>
+        <span class="tx">
+          <span class="t-row">
+            <span class="t" data-i18n="l5_t">Xiaomi Poco X8 e X8 Pro Max</span>
+            <span class="tag"><i aria-hidden="true"></i><span data-i18n="l5_tag">Lançamento</span></span>
+          </span>
+          <span class="d" data-i18n="l5_d">Desempenho de topo, tela incrível e bateria para o dia todo. Garanta o seu na Léo Imports.</span>
+        </span>
+        <span class="go"><span data-i18n="buy">Compre agora</span><svg viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M7 17 17 7M8 7h9v9" />
+          </svg></span>
+      </a>
+    </section>
+
+    <!-- ===== MAPA =====
+         EDITAR: para outro local, no Google Maps clique em Compartilhar > Incorporar um mapa,
+         copie só o endereço do src="…" e cole no src do <iframe> abaixo. -->
+    <section class="map rv" style="--d:.25s">
+      <div class="sec-h">
+        <h2 data-i18n="map_t">Onde estamos</h2>
+        <a class="more" href="https://maps.google.com/?cid=13290408963924856648" target="_blank" rel="noopener" data-i18n="map_open">Abrir no Maps ↗</a>
+      </div>
+      <p class="sec-p" data-i18n="map_p">R. Benjamin Constant, 502 · Loja 2094 · Centro · Rio Branco, AC</p>
+      <div class="map-box">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.5243243623136!2d-67.80495401661064!3d-9.97347597501235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x917f8d25c1fe154f%3A0xb87104897e688f48!2sL%C3%A9o%20Imports!5e0!3m2!1spt-BR!2sbr!4v1793130514086!5m2!1spt-BR!2sbr"
+          title="Mapa: Léo Imports - Rio Branco" loading="lazy" allowfullscreen
+          referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      </div>
+    </section>
+
+    <!-- O ano atualiza sozinho -->
+    <p class="copy">© <span data-ano>2026</span> Léo Imports Rio Branco. <span data-i18n="rights">Todos os direitos reservados.</span></p>
+
+  </main>
+
+  <script src="assets/js/i18n.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
